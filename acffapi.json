@@ -1,0 +1,52 @@
+{
+  "name": "Freifunk Aachen",
+  "url": "http://www.Freifunk-Aachen.de",
+  "location": {
+    "city": "Aachen",
+    "country": "DE",
+    "lat": 50.77635518995889,
+    "lon": 6.083861589431763,
+    "address": {
+      "Name": "siehe Website!"
+    }
+  },
+  "contact": {
+    "email": "Kontakt@Freifunk-Aachen.de",
+    "facebook": "https://de-de.facebook.com/freifunkaachen",
+    "twitter": "@ffaachen",
+    "googleplus": "https://plus.google.com/114721362295554664764"
+  },
+  "state": {
+    "nodes": 480,
+    "description": "Die Community Aachen ist die Anlaufstelle für Freifunk in Aachen, der StädteRegion und Umgebung.",
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2015-05-16T11:48:22.935Z"
+  },
+  "feeds": [
+    {
+      "name": "Freifunk Aachen News",
+      "category": "blog",
+      "type": "RSS",
+      "url": "http://freifunk-aachen.de/feed/"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "http://www.freifunk-aachen.de/map/index.html",
+      "interval": "15 Minuten",
+      "mapType": "geographical"
+    }
+  ],
+  "api": "0.4.8",
+  "techDetails": {
+    "routing": [],
+    "updatemode": [],
+    "legals": []
+  }
+}
