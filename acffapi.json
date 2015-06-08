@@ -57,6 +57,34 @@
         }
 
     ],
+    "support": {
+        "club": {
+            "name": "Freifunk Rheinland e.V.",
+            "street": "Postfach 10 03 54",
+            "zip": "41003",
+            "city": "Mönchengladbach",
+            "url": "http://freifunk-rheinland.net",
+            "email": "kontakt@freifunk-rheinland.net"
+        },
+        "donations": {
+            "bankaccount": {
+                "IBAN": "DE16430609674044542600",
+                "BIC": "GENODEM1GLS",
+                "purpose": "Spende - <ggf. Name des Spenders>"
+            },
+            "campaigns": [
+                {
+                    "provider": "boost",
+                    "projectid": "3318"
+                },
+                {
+                    "provider": "betterplace",
+                    "projectid": "16049"
+                }
+
+            ]
+        }
+    },
     "techDetails": {
         "routing": [
             "batman-adv"
