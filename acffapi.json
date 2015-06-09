@@ -1,52 +1,122 @@
 {
-  "name": "Freifunk Aachen",
-  "url": "http://www.Freifunk-Aachen.de",
-  "location": {
-    "city": "Aachen",
-    "country": "DE",
-    "lat": 50.77635518995889,
-    "lon": 6.083861589431763,
-    "address": {
-      "Name": "siehe Website!"
-    }
-  },
-  "contact": {
-    "email": "Kontakt@Freifunk-Aachen.de",
-    "facebook": "https://de-de.facebook.com/freifunkaachen",
-    "twitter": "@ffaachen",
-    "googleplus": "https://plus.google.com/114721362295554664764"
-  },
-  "state": {
-    "nodes": 480,
-    "description": "Die Community Aachen ist die Anlaufstelle für Freifunk in Aachen, der StädteRegion und Umgebung.",
-    "focus": [
-      "infrastructure/backbone",
-      "Public Free Wifi",
-      "Social Community Building",
-      "Local services and content",
-      "Free internet access"
+    "name": "Freifunk Aachen",
+    "url": "http://www.Freifunk-Aachen.de",
+    "metacommunity": "Freifunk Rheinland e.V.",
+    "location": {
+        "city": "Aachen",
+        "country": "DE",
+        "lat": 50.77635518995889,
+        "lon": 6.083861589431763
+    },
+    "contact": {
+        "email": "kontakt@freifunk-aachen.de",
+        "facebook": "https://de-de.facebook.com/freifunkaachen",
+        "twitter": "@ffaachen",
+        "googleplus": "https://plus.google.com/114721362295554664764",
+        "webform": "http://freifunk-aachen.de/kontakt/"
+    },
+    "state": {
+        "nodes": 480,
+        "description": "Die Community Aachen ist die Anlaufstelle für Freifunk in Aachen, der StädteRegion und Umgebung.",
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Social Community Building",
+            "Local services and content",
+            "Free internet access"
+        ],
+        "lastchange": "2015-05-16T11:48:22.935Z"
+    },
+    "feeds": [
+        {
+            "name": "Freifunk Aachen News",
+            "category": "blog",
+            "type": "RSS",
+            "url": "http://freifunk-aachen.de/feed/"
+        }
     ],
-    "lastchange": "2015-05-16T11:48:22.935Z"
-  },
-  "feeds": [
-    {
-      "name": "Freifunk Aachen News",
-      "category": "blog",
-      "type": "RSS",
-      "url": "http://freifunk-aachen.de/feed/"
-    }
-  ],
-  "nodeMaps": [
-    {
-      "url": "http://www.freifunk-aachen.de/map/index.html",
-      "interval": "15 Minuten",
-      "mapType": "geographical"
-    }
-  ],
-  "api": "0.4.8",
-  "techDetails": {
-    "routing": [],
-    "updatemode": [],
-    "legals": []
-  }
+    "nodeMaps": [
+        {
+            "url": "http://map.freifunk-aachen.de/geomap.html",
+            "interval": "15 Minuten",
+            "mapType": "geographical"
+        },
+        {
+            "url": "http://map.freifunk-aachen.de/graph.html",
+            "interval": "15 Minuten",
+            "mapType": "structural"
+        },
+        {
+            "url": "http://map.freifunk-aachen.de/list.html",
+            "interval": "15 Minuten",
+            "mapType": "list/status"
+        },
+        {
+            "url": "http://map.freifunk-aachen.de/v2/",
+            "interval": "15 Minuten"
+        }
+
+    ],
+    "support": {
+        "club": {
+            "name": "Freifunk Rheinland e.V.",
+            "street": "Postfach 10 03 54",
+            "zip": "41003",
+            "city": "Mönchengladbach",
+            "url": "http://freifunk-rheinland.net",
+            "email": "kontakt@freifunk-rheinland.net"
+        },
+        "donations": {
+            "bankaccount": {
+                "IBAN": "DE16430609674044542600",
+                "BIC": "GENODEM1GLS",
+                "purpose": "Spende - <ggf. Name des Spenders>"
+            },
+            "campaigns": [
+                {
+                    "provider": "boost",
+                    "projectid": "3318"
+                },
+                {
+                    "provider": "betterplace",
+                    "projectid": "16049"
+                }
+
+            ]
+        }
+    },
+    "techDetails": {
+        "routing": [
+            "batman-adv"
+        ],
+        "updatemode": [
+            "manual",
+            "autoupdate"
+        ],
+        "legals": [
+            "vpnnational",
+            "institutions"
+        ],
+        "networks": {
+            "ipv6": [
+                {
+                    "network": "2a03:2260:114:ac01::/64"
+                },
+                {
+                    "network": "2a03:2260:114::/64"
+                }
+            ],
+            "ipv4": [
+                {
+                    "network": "10.5.0.0/16"
+                }
+            ]
+        },
+        "firmware": {
+            "name": "gluon",
+            "url": "https://images.aachen.freifunk.net/",
+            "docs": "https://wiki.freifunk.net/Freifunk_Aachen/Softwareinstallation"
+        }
+    },
+    "api": "0.4.8"
 }
