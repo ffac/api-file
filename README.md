@@ -21,3 +21,8 @@ Wenn ihr also etwas am API file ändern wollt, dann macht das bitte zunächst in
 Wenn ihr irgendwann einmal den Dateinamen oder den Namen des Repositories ändern solltet, dann denkt bitte daran, die so geänderte URL auf das API-File gleichzeitig auch im Directory zu aktualisieren!
 
 [3]: https://github.com/freifunk/directory.api.freifunk.net
+
+## Lizenz
+
+Wir nehmen nicht an, dass diese einfache Informationssammlung irgendwie schützungswürdig ist. Um jedoch jeden Zweifel auszuräumen, setzen wir sie daher explizit unter die [CC0 1.0 Universell Lizenz](https://creativecommons.org/publicdomain/zero/1.0/deed.de), die so umfassende Nutzungsrechte, wie sie durch das Urheberrecht maximal möglich sind, einräumt.
+
