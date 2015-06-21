@@ -37,19 +37,9 @@
     ],
     "nodeMaps": [
         {
-            "url": "http://map.freifunk-aachen.de/geomap.html",
+            "url": "http://map.freifunk-aachen.de/",
             "interval": "15 Minuten",
-            "mapType": "geographical"
-        },
-        {
-            "url": "http://map.freifunk-aachen.de/graph.html",
-            "interval": "15 Minuten",
-            "mapType": "structural"
-        },
-        {
-            "url": "http://map.freifunk-aachen.de/list.html",
-            "interval": "15 Minuten",
-            "mapType": "list/status"
+            "technicalType": "ffmap"
         },
         {
             "url": "http://map.freifunk-aachen.de/v2/",
