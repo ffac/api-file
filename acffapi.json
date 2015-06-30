@@ -16,7 +16,7 @@
         "webform": "http://freifunk-aachen.de/kontakt/"
     },
     "state": {
-        "nodes": 480,
+        "nodes": 535,
         "description": "Die Community Aachen ist die Anlaufstelle für Freifunk in Aachen, der StädteRegion und Umgebung.",
         "focus": [
             "infrastructure/backbone",
@@ -25,7 +25,7 @@
             "Local services and content",
             "Free internet access"
         ],
-        "lastchange": "2015-05-16T11:48:22.935Z"
+        "lastchange": "2015-06-30T22:19:49.000Z"
     },
     "feeds": [
         {
