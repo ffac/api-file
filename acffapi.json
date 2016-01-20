@@ -38,7 +38,7 @@
     "nodeMaps": [
         {
             "url": "http://map.freifunk-aachen.de/",
-            "interval": "15 Minuten",
+            "interval": "1 minute",
             "technicalType": "meshviewer"
         }
     ],
@@ -103,5 +103,5 @@
             "docs": "https://wiki.freifunk.net/Freifunk_Aachen/Softwareinstallation"
         }
     },
-    "api": "0.4.9"
+    "api": "0.4.11"
 }
