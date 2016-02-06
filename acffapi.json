@@ -16,7 +16,7 @@
         "webform": "http://freifunk-aachen.de/kontakt/"
     },
     "state": {
-        "nodes": 750,
+        "nodes": 970,
         "description": "Die Community Aachen ist die Anlaufstelle für Freifunk in Aachen, der StädteRegion und Umgebung.",
         "focus": [
             "infrastructure/backbone",
@@ -25,7 +25,7 @@
             "Local services and content",
             "Free internet access"
         ],
-        "lastchange": "2015-06-30T22:19:49.000Z"
+        "lastchange": "2016-01-20T21:24:21Z"
     },
     "feeds": [
         {
@@ -38,14 +38,9 @@
     "nodeMaps": [
         {
             "url": "http://map.freifunk-aachen.de/",
-            "interval": "15 Minuten",
-            "technicalType": "ffmap"
-        },
-        {
-            "url": "http://map.freifunk-aachen.de/v2/",
-            "interval": "15 Minuten"
+            "interval": "1 minute",
+            "technicalType": "meshviewer"
         }
-
     ],
     "support": {
         "club": {
@@ -108,5 +103,5 @@
             "docs": "https://wiki.freifunk.net/Freifunk_Aachen/Softwareinstallation"
         }
     },
-    "api": "0.4.8"
+    "api": "0.4.11"
 }
