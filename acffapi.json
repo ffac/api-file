@@ -40,6 +40,11 @@
             "url": "http://map.freifunk-aachen.de/",
             "interval": "1 minute",
             "technicalType": "meshviewer"
+        },
+        {
+            "url": "http://data.aachen.freifunk.net/nodelist.json",
+            "interval": "1 minute",
+            "technicalType": "nodelist"
         }
     ],
     "support": {
