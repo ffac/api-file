@@ -33,6 +33,12 @@
             "category": "blog",
             "type": "RSS",
             "url": "http://freifunk-aachen.de/feed/"
+        },
+        {
+            "name": "Freifunk Aachen Termine",
+            "category": "ics",
+            "type": "ics",
+            "url": "http://freifunk-aachen.de/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true"
         }
     ],
     "nodeMaps": [
