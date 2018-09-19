@@ -1,6 +1,6 @@
 {
     "name": "Freifunk Aachen",
-    "url": "http://www.Freifunk-Aachen.de",
+    "url": "https://Freifunk-Aachen.de",
     "metacommunity": "Freifunk Regio Aachen",
     "location": {
         "city": "Aachen",
@@ -13,7 +13,7 @@
         "facebook": "https://de-de.facebook.com/freifunkaachen",
         "twitter": "@ffaachen",
         "googleplus": "https://plus.google.com/114721362295554664764",
-        "webform": "http://freifunk-aachen.de/kontakt/"
+        "webform": "https://freifunk-aachen.de/kontakt/"
     },
     "state": {
         "nodes": 2000,
@@ -43,12 +43,12 @@
     ],
     "nodeMaps": [
         {
-            "url": "http://map.freifunk-aachen.de/",
+            "url": "https://map.aachen.freifunk.net/",
             "interval": "1 minute",
             "technicalType": "meshviewer"
         },
         {
-            "url": "http://data.aachen.freifunk.net/nodelist.json",
+            "url": "https://data.aachen.freifunk.net/nodelist.json",
             "interval": "1 minute",
             "technicalType": "nodelist"
         }
@@ -59,7 +59,7 @@
             "street": "Postfach 10 03 54",
             "zip": "41003",
             "city": "Mönchengladbach",
-            "url": "http://freifunk-rheinland.net",
+            "url": "https://freifunk-rheinland.net",
             "email": "kontakt@freifunk-rheinland.net"
         },
         "donations": {
