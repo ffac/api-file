@@ -54,10 +54,16 @@
     ],
     "support": {
         "club": {
+            "name":"Fördervereinigung für freie Netzwerke in der Region Aachen e.V. (F3N)",
+            "city":"Aachen",
+            "url":"https://freifunk-aachen.de/",
+            "email":"vorstand@f3n-ac.de"
+        },
+        "club": {
             "name": "Freifunk Rheinland e.V.",
-            "street": "Postfach 10 03 54",
-            "zip": "41003",
-            "city": "Mönchengladbach",
+            "street": "Hirzenrott 2-4",
+            "zip": "52076",
+            "city": "Aachen",
             "url": "https://freifunk-rheinland.net",
             "email": "kontakt@freifunk-rheinland.net"
         },
