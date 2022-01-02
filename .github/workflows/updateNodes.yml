@@ -33,7 +33,7 @@ jobs:
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add freifunk.net.json
+        git add acffapi.json
         git commit -m "updated number of nodes"
         
     - name: Push changes
