@@ -1,12 +1,14 @@
 {
     "name": "Freifunk Aachen",
-    "url": "https://Freifunk-Aachen.de",
+    "url": "https://freifunk-aachen.de/",
     "metacommunity": "Freifunk Regio Aachen",
     "location": {
         "city": "Aachen",
         "country": "DE",
-        "lat": 50.77635518995889,
-        "lon": 6.083861589431763
+        "geoCode": {
+            "lat": 50.77635518995889,
+            "lon": 6.083861589431763
+        }
     },
     "contact": {
         "email": "kontakt@freifunk-aachen.de",
@@ -16,7 +18,7 @@
     },
     "state": {
         "nodes": 2200,
-        "description": "Die Community Aachen ist die Anlaufstelle für Freifunk in Aachen, der StädteRegion und Umgebung.",
+        "description": "Die Community Aachen ist die Anlaufstelle für Freifunk in Aachen, der Städte-Region und Umgebung.",
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
@@ -65,7 +67,8 @@
             "bankaccount": {
                 "IBAN": "DE16430609674044542600",
                 "BIC": "GENODEM1GLS",
-                "purpose": "Spende - <ggf. Name des Spenders>"
+                "purpose": "Spende - <ggf. Name des Spenders>",
+                "usage": "Spende - <ggf. Name des Spenders>"
             },
             "campaigns": [
                 {
@@ -76,7 +79,6 @@
                     "provider": "betterplace",
                     "projectid": "33817"
                 }
-
             ]
         }
     },
@@ -109,9 +111,12 @@
         },
         "firmware": {
             "name": "gluon",
-            "url": "https://images.aachen.freifunk.net/",
+            "url": "https://images.ffac.rocks/",
             "docs": "https://wiki.freifunk.net/Freifunk_Aachen/Softwareinstallation"
         }
     },
-    "api": "0.4.11"
+    "api": "0.5.0",
+    "privacy": {
+        "policyurl": "https://freifunk-aachen.de/impressum/"
+    }
 }
