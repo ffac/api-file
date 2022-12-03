@@ -5,8 +5,10 @@
     "location": {
         "city": "Aachen",
         "country": "DE",
-        "lat": 50.77635518995889,
-        "lon": 6.083861589431763
+        "geoCode": {
+            "lat": 50.77635518995889,
+            "lon": 6.083861589431763
+        }
     },
     "contact": {
         "email": "kontakt@freifunk-aachen.de",
@@ -15,7 +17,7 @@
         "webform": "https://freifunk-aachen.de/kontakt/"
     },
     "state": {
-        "nodes": 2200,
+        "nodes": 1800,
         "description": "Die Community Aachen ist die Anlaufstelle für Freifunk in Aachen, der StädteRegion und Umgebung.",
         "focus": [
             "infrastructure/backbone",
@@ -24,7 +26,7 @@
             "Local services and content",
             "Free internet access"
         ],
-        "lastchange": "2016-01-20T21:24:21Z"
+        "lastchange": "2022-12-03T20:28:06+01:00"
     },
     "feeds": [
         {
@@ -59,7 +61,8 @@
             "zip": "41003",
             "city": "Mönchengladbach",
             "url": "https://freifunk-rheinland.net",
-            "email": "kontakt@freifunk-rheinland.net"
+            "email": "kontakt@freifunk-rheinland.net",
+            "board": []
         },
         "donations": {
             "bankaccount": {
@@ -76,7 +79,6 @@
                     "provider": "betterplace",
                     "projectid": "33817"
                 }
-
             ]
         }
     },
@@ -113,5 +115,9 @@
             "docs": "https://wiki.freifunk.net/Freifunk_Aachen/Softwareinstallation"
         }
     },
-    "api": "0.4.11"
+    "api": "0.5.2",
+    "privacy": {
+        "policyurl": "https://freifunk-aachen.de/impressum/"
+    },
+    "timeline": []
 }
