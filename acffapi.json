@@ -1,7 +1,7 @@
 {
     "name": "Freifunk Aachen",
     "url": "https://Freifunk-Aachen.de",
-    "metacommunity": "Freifunk Regio Aachen",
+    "metacommunity": "Freifunk Rheinland e.V.",
     "location": {
         "city": "Aachen",
         "country": "DE",
@@ -56,13 +56,10 @@
     ],
     "support": {
         "club": {
-            "name": "Freifunk Rheinland e.V.",
-            "street": "Postfach 10 03 54",
-            "zip": "41003",
-            "city": "Mönchengladbach",
-            "url": "https://freifunk-rheinland.net",
-            "email": "kontakt@freifunk-rheinland.net",
-            "board": []
+            "name":"Fördervereinigung für freie Netzwerke in der Region Aachen e.V. (F3N)",
+            "city":"Aachen",
+            "url":"https://freifunk-aachen.de/",
+            "email":"vorstand@f3n-ac.de"
         },
         "donations": {
             "bankaccount": {
