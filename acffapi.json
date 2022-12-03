@@ -1,7 +1,7 @@
 {
     "name": "Freifunk Aachen",
     "url": "https://Freifunk-Aachen.de",
-    "metacommunity": "Freifunk Regio Aachen",
+    "metacommunity": "Freifunk Rheinland e.V.",
     "location": {
         "city": "Aachen",
         "country": "DE",
@@ -58,14 +58,6 @@
             "city":"Aachen",
             "url":"https://freifunk-aachen.de/",
             "email":"vorstand@f3n-ac.de"
-        },
-        "club": {
-            "name": "Freifunk Rheinland e.V.",
-            "street": "Hirzenrott 2-4",
-            "zip": "52076",
-            "city": "Aachen",
-            "url": "https://freifunk-rheinland.net",
-            "email": "kontakt@freifunk-rheinland.net"
         },
         "donations": {
             "bankaccount": {
