@@ -67,8 +67,7 @@
         "donations": {
             "bankaccount": {
                 "IBAN": "DE16430609674044542600",
-                "BIC": "GENODEM1GLS",
-                "purpose": "Spende - <ggf. Name des Spenders>"
+                "BIC": "GENODEM1GLS"
             },
             "campaigns": [
                 {
