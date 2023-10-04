@@ -1,119 +1,140 @@
 {
-    "name": "Freifunk Aachen",
-    "url": "https://Freifunk-Aachen.de",
-    "metacommunity": "Freifunk Rheinland e.V.",
-    "location": {
-        "city": "Aachen",
-        "country": "DE",
-        "geoCode": {
-            "lat": 50.77635518995889,
-            "lon": 6.083861589431763
-        }
-    },
-    "contact": {
-        "email": "kontakt@freifunk-aachen.de",
-        "facebook": "https://de-de.facebook.com/freifunkaachen",
-        "twitter": "@ffaachen",
-        "webform": "https://freifunk-aachen.de/kontakt/"
-    },
-    "state": {
-        "nodes": 1800,
-        "description": "Die Community Aachen ist die Anlaufstelle für Freifunk in Aachen, der StädteRegion und Umgebung.",
-        "focus": [
-            "infrastructure/backbone",
-            "Public Free Wifi",
-            "Social Community Building",
-            "Local services and content",
-            "Free internet access"
-        ],
-        "lastchange": "2022-12-03T20:28:06+01:00"
-    },
-    "feeds": [
-        {
-            "name": "Freifunk Aachen News",
-            "category": "blog",
-            "type": "RSS",
-            "url": "https://freifunk-aachen.de/feed/"
-        },
-        {
-            "name": "Freifunk Aachen Termine",
-            "category": "ics",
-            "type": "ics",
-            "url": "https://freifunk-aachen.de/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true"
-        }
+  "name": "Freifunk Aachen",
+  "url": "https://freifunk-aachen.de",
+  "metacommunity": "Freifunk Rheinland e.V.",
+  "location": {
+    "city": "Aachen",
+    "country": "DE",
+    "geoCode": {
+      "lat": 50.77635518995889,
+      "lon": 6.083861589431763
+    }
+  },
+  "contact": {
+    "email": "kontakt@freifunk-aachen.de",
+    "facebook": "https://de-de.facebook.com/freifunkaachen",
+    "twitter": "@ffaachen",
+    "webform": "https://freifunk-aachen.de/kontakt/",
+    "matrix": "https://matrix.to/#/#ffac:matrix"
+  },
+  "state": {
+    "nodes": 1809,
+    "description": "Die Community Aachen ist die Anlaufstelle für Freifunk in Aachen, der StädteRegion und Umgebung.",
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
     ],
-    "nodeMaps": [
+    "lastchange": "2023-10-04T23:30:00+02:00"
+  },
+  "feeds": [
+    {
+      "name": "Freifunk Aachen News",
+      "category": "blog",
+      "type": "RSS",
+      "url": "https://freifunk-aachen.de/feed/"
+    },
+    {
+      "name": "Freifunk Aachen Termine",
+      "category": "ics",
+      "type": "ics",
+      "url": "https://freifunk-aachen.de/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "https://map.aachen.freifunk.net/",
+      "interval": "1 minute",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    },
+    {
+      "url": "https://map.aachen.freifunk.net/nodelist/",
+      "interval": "1 minute",
+      "technicalType": "nodelist",
+      "mapType": "list/status"
+    }
+  ],
+  "support": {
+    "club": {
+      "name": "Fördervereinigung für freie Netzwerke in der Region Aachen e.V. (F3N)",
+      "city": "Aachen",
+      "url": "https://freifunk-aachen.de/",
+      "email": "vorstand@f3n-ac.de"
+    },
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE16430609674044542600",
+        "BIC": "GENODEM1GLS"
+      },
+      "campaigns": [
         {
-            "url": "https://map.aachen.freifunk.net/",
-            "interval": "1 minute",
-            "technicalType": "meshviewer"
+          "provider": "boost",
+          "projectid": "3318"
         },
         {
-            "url": "https://data.aachen.freifunk.net/nodelist.json",
-            "interval": "1 minute",
-            "technicalType": "nodelist"
+          "provider": "betterplace",
+          "projectid": "33817"
         }
+      ]
+    }
+  },
+  "techDetails": {
+    "routing": [
+      "batman-adv"
     ],
-    "support": {
-        "club": {
-            "name":"Fördervereinigung für freie Netzwerke in der Region Aachen e.V. (F3N)",
-            "city":"Aachen",
-            "url":"https://freifunk-aachen.de/",
-            "email":"vorstand@f3n-ac.de"
-        },
-        "donations": {
-            "bankaccount": {
-                "IBAN": "DE16430609674044542600",
-                "BIC": "GENODEM1GLS"
-            },
-            "campaigns": [
-                {
-                    "provider": "boost",
-                    "projectid": "3318"
-                },
-                {
-                    "provider": "betterplace",
-                    "projectid": "33817"
-                }
-            ]
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational",
+      "institutions"
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "2a03:2260:114::/48"
         }
-    },
-    "techDetails": {
-        "routing": [
-            "batman-adv"
-        ],
-        "updatemode": [
-            "manual",
-            "autoupdate"
-        ],
-        "legals": [
-            "vpnnational",
-            "institutions"
-        ],
-        "networks": {
-            "ipv6": [
-                {
-                    "network": "2a03:2260:114::/48"
-                }
-            ],
-            "ipv4": [
-                {
-                    "network": "10.5.0.0/16"
-                },
-                {
-                    "network": "10.145.0.0/16"
-                }
-            ]
+      ],
+      "ipv4": [
+        {
+          "network": "10.5.0.0/16"
         },
-        "firmware": {
-            "name": "gluon",
-            "url": "https://images.aachen.freifunk.net/",
-            "docs": "https://wiki.freifunk.net/Freifunk_Aachen/Softwareinstallation"
+        {
+          "network": "10.145.0.0/16"
         }
+      ]
     },
-    "api": "0.5.2",
-    "privacy": {
-        "policyurl": "https://freifunk-aachen.de/impressum/"
+    "firmware": {
+      "name": "gluon",
+      "url": "https://images.aachen.freifunk.net/",
+      "docs": "https://github.com/ffac/site/blob/v2023.1.x/CHANGELOG.md",
+      "vpnaccess": "automatic"
+    }
+  },
+  "api": "0.5.2",
+  "privacy": {
+    "policyurl": "https://freifunk-aachen.de/impressum/"
+  },
+  "timeline": [],
+  "services": [
+    {
+      "serviceName": "Speedtest",
+      "serviceDescription": "Test Internet Speed",
+      "externalUri": "https://speed.freifunk-aachen.de/"
     },
-    "timeline": []
+    {
+      "serviceName": "Monitoring",
+      "serviceDescription": "Grafana for Node Stats",
+      "externalUri": "https://grafana.freifunk-aachen.de"
+    },
+    {
+      "serviceName": "Jitsi",
+      "serviceDescription": "Free Public Jitsi Server",
+      "externalUri": "https://meet.freifunk-aachen.de"
+    }
+  ]
 }
